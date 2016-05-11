@@ -1,0 +1,30 @@
+<h1>{{.Body}}</h1>
+
+<div style="width: 980px; margin: 0 auto;">
+<form method="post" action="/view/{{.Title}}">
+	<table>
+		<tr>
+	  		<td>账户：</td>
+	  		<td><input name="account" type="text"></input></td>
+		</tr>
+		<tr>
+	  		<td>密码：</td>
+	 	 	<td><input name="password" type="password"></input></td>
+		</tr>
+
+		<tr>
+	  		<td></td>
+	 	 	<td><input type="submit" name="btnLogin" value="- Login -"></input></td>
+		</tr>
+
+		<tr>
+	  		<td></td>
+	 	 	<td><a href="/regist/{{.Title}}">regist</a></td>
+		</tr>
+	</table>
+</form>
+</div>
+
+
+ 
+ 
