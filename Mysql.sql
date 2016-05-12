@@ -8,7 +8,7 @@ create database ryo;
 		UserAccount varchar(16) not null,
 		UserPwd varchar(16) not null
 
-	)
+	);
 
 	create table BookInfo(
 		TableID int primary key AUTO_INCREMENT,
