@@ -5,7 +5,7 @@ create database ryo;
 	create table UserInfo(
 
 		UserID int primary key AUTO_INCREMENT,
-		UserName varchar(16) not null,
+		UserAccount varchar(16) not null,
 		UserPwd varchar(16) not null,
 
 	)
