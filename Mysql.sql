@@ -6,7 +6,7 @@ create database ryo;
 
 		UserID int primary key AUTO_INCREMENT,
 		UserAccount varchar(16) not null,
-		UserPwd varchar(16) not null,
+		UserPwd varchar(16) not null
 
 	)
 
